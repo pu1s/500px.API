@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OAuth;
+using TokenStore;
 
 
 namespace WindowsFormsApplicationTest
@@ -17,11 +18,12 @@ namespace WindowsFormsApplicationTest
         public Form1()
         {
             InitializeComponent();
-           ags.Tokens.TokenStore.CreateDB("test.db");
-            var tok = new OAuthBroker.OAuthToken();
-            tok.Token = "aaaaa";
-            tok.Secret = "dddddd";
-            ags.Tokens.TokenStore.SaveToken(tok);
+            TStore.Exec();
+           //ags.Tokens.TokenStore.CreateDB("test.db");
+           // var tok = new OAuthBroker.OAuthToken();
+           // tok.Token = "aaaaa";
+           // tok.Secret = "dddddd";
+           // ags.Tokens.TokenStore.SaveToken(tok);
            
         }
     }
