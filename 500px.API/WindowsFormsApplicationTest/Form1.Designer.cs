@@ -116,6 +116,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(275, 20);
             this.textBox3.TabIndex = 15;
+            this.textBox3.Text = "http://yandex.ru";
             // 
             // label3
             // 
@@ -132,6 +133,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(275, 20);
             this.textBox2.TabIndex = 13;
+            this.textBox2.Text = "N4Gi8a5x8yQ8TuHnKOqPYroeRN63Mmh9k1l5QVxA";
             // 
             // label2
             // 
@@ -148,6 +150,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(275, 20);
             this.textBox1.TabIndex = 11;
+            this.textBox1.Text = "dYhyGEEA4OT6wR4LJn7NC5bhhUP2ISaBxw234CiW";
             // 
             // label1
             // 
